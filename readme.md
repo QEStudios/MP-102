@@ -43,6 +43,8 @@ The gerber files have been included in the `PCB/gerbers` folder, but your mileag
 
 I ordered the PCBs from JLCPCB due to their very low price and shipping costs, but you can use whichever fab house you prefer.
 
+Make sure to order the PCB with a thickness of 1.6mm as the case was designed for a PCB of that size.
+
 ### Flashing the Pico
 
 1. Install QMK by following [this guide](https://docs.qmk.fm/newbs_getting_started).
