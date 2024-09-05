@@ -5,6 +5,7 @@ The MP-102 Macropad features 10 MX-compatible keys and 2 rotary encoders with op
 ## Ordering parts
 
 The MP-102 was designed to be built on a budget of around $35 Australian Dollars. Thus, parts were aquired from less reliable places than where you might normally buy them. I've linked the relevant places here as well as in the `Layout and BOM.xlsx` file, but all of the parts are generic and can be bought from wherever you find easiest (or cheapest).
+
 I ordered the Hot Melt Inserts from the link provided quite a while before I started this project, so I didn't personally factor this cost into the price of my own build of the MP-102.
 
 [All prices in Australian Dollars]
@@ -25,16 +26,22 @@ I ordered the Hot Melt Inserts from the link provided quite a while before I sta
 ### 3D Prints
 
 All 3D model files can be found in the `3D Models` folder in this repository.
+
 You might want to first print out `USB C Test Piece.stl` and make sure that your USB cable fits through the hole, as this is the size of the opening to the USB C port on the Pico.
+
 There are two different files for the knobs, one with 0.1mm tolerences and one with 0.2mm tolerences. I recommend printing both and choosing the one which fits better for you. You can also use the horizontal expansion setting in your slicer to fine-tune this to your liking.
+
 All files (excluding `USC C Test Piece.stl`) need to be printed only once, apart from the knob file (either `Knob 0.1mm Clearance.stl` or `Knob 0.2mm Clearance.stl`), which you need to print 2 of.
+
 The top part of the case should slide onto the bottom part of the case. You'll need to insert the hot melt inserts into the two holes on the underside of the top part of the case. 
 
 ### PCB
 
 The PCB was designed in KiCad, and the project files for the PCB can be found in the `PCB` folder in this repository.
+
 The gerber files have been included in the `PCB/gerbers` folder, but your mileage may vary when using them. I recommend re-generating the gerbers yourself, just to be safe.
-I ordered the PCBs
+
+I ordered the PCBs from JLCPCB due to their very low price and shipping costs, but you can use whichever fab house you prefer.
 
 ### Flashing the Pico
 
